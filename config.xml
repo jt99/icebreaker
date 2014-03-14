@@ -5,13 +5,13 @@
         versionCode = "10"
         version     = "1.1.0">
  
-    <name>Employee Directory - Icebreaker</name>
+    <name>Icebreaker</name>
  
     <description>
-        A simple employee directory application
+        A sample app by JT
     </description>
  
-    <author href="http://coenraets.org" email="ccoenraets@gmail.com">
+    <author href="http://coenraets.org" email="jaytorian@gmail.com">
         Jay Torian
     </author>
  
