@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns       = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "org.coenraets.employeedirectory"
+        id          = "icebreaker.app.jayt"
         versionCode = "10"
-        version     = "1.1.0">
+        version     = "1.2.0">
  
     <name>Icebreaker</name>
  
@@ -11,7 +11,7 @@
         A sample app by JT
     </description>
  
-    <author href="http://coenraets.org" email="jaytorian@gmail.com">
+    <author href="http://jaytorian.com" email="jaytorian@gmail.com">
         Jay Torian
     </author>
  
