@@ -30,7 +30,7 @@
 		<p>The goal of this page is to show various UI elements in their native context, focusing on page and dialog - transitions, and eventually forms and other content types.</p>		
 							
 		<h3>Click buttons below to test function:</h3>
-		<p><a href="#popupmap" data-role="button" data-rel="dialog" data-transition="pop">Popup Map</a></p>
+		<p><a href="#popupmap" data-role="button">PageMap</a></p>
 		<p><a href="#two" data-role="button">Page2</a></p>
 		<p><a href="#three" data-role="button">Page3</a></p>
 		<p><a href="#four" data-role="button">Page4</a></p>
@@ -185,7 +185,10 @@
 <!-- End - popup2 -->
 
 <!-- popup map -->
-<div data-role="popup" id="popupmap" data-overlay-theme="b" data-theme="b" data-corners="false" data-tolerance="15,15">
+<div data-role="page" id="popupmap" data-dom-cache="true" data-overlay-theme="b" data-theme="b" data-corners="false" data-tolerance="15,15">
+		<div data-role="header" data-theme="a">
+			<h1>PopUp Map</h1>
+		</div><!-- /header -->
     <a href="#one" data-rel="back" data-role="button" data-theme="b" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a> 
     <iframe src="map.html" width="480" height="320" seamless></iframe>
 </div>
